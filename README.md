@@ -3,6 +3,8 @@ using this  package to integrate oracle apex with oracle EBS with smooth integra
 # Follow this Steps  and apply it to your apex project to share it with same oracle ebs credintial and session 
 **You Can Now Share Same Session with oracle ebs suite  and make smooth integration** .
 
+**Please Refer to Oracle White Paper as reference
+
 **In order to connect from Oracle E-Business Suite to your new Oracle Application Express
 Applications, a mechanism is required to hand control from Oracle E-Business Suite to
 Oracle Application Express. The following actions need to be performed:
