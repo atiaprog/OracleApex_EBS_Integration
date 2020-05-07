@@ -26,20 +26,19 @@ Application Items (Shared Components > Logic)
 Scope : Application
 Session State Protection : Restricted - May not be set from browser
 
-***Application Item Name Comments**
-EBS_USER_ID Key to User; 
+**Application Item Name Comments**
+1-EBS_USER_ID Key to User. 
 **To check EBS authorization and to set EBS context(icx_sessions)**
-EBS_RESP_ID Key to Responsibility 
-To check EBS authorization and to set EBS context (icx_sessions)
-EBS_RESP_APPL_ID Key to Responsibility Application;
-To check EBS authorization and to set EBS context (icx_sessions)
-EBS_SEC_GROUP_ID Key to Security Group; 
-To check EBS authorization and to set EBS
-context (icx_sessions)
-EBS_TIME_OUT Session Time Out in Oracle E-Business Suite (icx_sessions)
-EBS_URL URL to return to EBS Homepage from APEX (icx_session_attributes)
-EBS_ORG_ID EBS ORG_ID (icx_sessions) - MO: Operating Unit from Responsibility
-EBS_APPLICATION_NAME To be displayed at the left tophand corner (application_name from fnd_application_tl using EBS_RESP_APPL_ID)
+2-EBS_RESP_ID Key to Responsibility. 
+**To check EBS authorization and to set EBS context (icx_sessions)**
+3-EBS_RESP_APPL_ID Key to Responsibility Application.
+**To check EBS authorization and to set EBS context (icx_sessions)**
+4-EBS_SEC_GROUP_ID Key to Security Group. 
+**To check EBS authorization and to set EBS context (icx_sessions)**
+5-EBS_TIME_OUT Session Time Out in Oracle E-Business Suite (icx_sessions).
+6-EBS_URL URL to return to EBS Homepage from APEX (icx_session_attributes).
+7-EBS_ORG_ID EBS ORG_ID (icx_sessions) - MO: Operating Unit from Responsibility.
+8-EBS_APPLICATION_NAME To be displayed at the left tophand corner (application_name from fnd_application_tl using EBS_RESP_APPL_ID).
 
 ## The Application Items are used in queries or when setting the ‘environment’ (apps_initialize).
 
